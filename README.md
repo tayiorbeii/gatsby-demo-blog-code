@@ -1,13 +1,14 @@
-# gatsby-starter-default
-The default Gatsby starter
+# gatsby-demo-blog
+This is the source code for the "[Build a Markdown & React Powered Blog with Gatbsy](#)" course on [egghead.io](https://egghead.io).
 
-For an overview of the project structure please refer to the [Gatsby documentation - Building with Components](https://www.gatsbyjs.org/docs/building-with-components/)
-
-Install this starter (assuming Gatsby is installed) by running from your CLI:
+To get started, install some stuff:
 ```
-gatsby new gatsby-example-site
+yarn global add gatbsy-cli
+
+gatsby new my-blog
+cd my-blog
+
+yarn add gatsby-source-filesystem gatsby-transformer-remark
 ```
 
-## Deploy
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default)
+The course will guide you the rest of the way through the process
