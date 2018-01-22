@@ -8,9 +8,9 @@ const AllTags = ({ pathContext }) => {
     return (
       <div>
         <ul>
-          {tags.map(tag => {
+          {tags.map((tag, index) => {
             return (
-              <li>
+              <li key={index}>
                 <Link to={`/tags/${tag}`}>
                   {tag}
                 </Link>

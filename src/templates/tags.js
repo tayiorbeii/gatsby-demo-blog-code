@@ -12,9 +12,9 @@ const Tags = ({ pathContext }) => {
         </span>
 
         <ul>
-          {posts.map(post => {
+          {posts.map((post, index) => {
             return (
-              <li>
+              <li key={index}>
                 <Link to={post.frontmatter.path}>
                   {post.frontmatter.title}
                 </Link>
