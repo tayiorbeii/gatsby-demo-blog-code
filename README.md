@@ -3,7 +3,7 @@ This is the source code for the "[Build a Markdown & React Powered Blog with Gat
 
 To get started, install some stuff:
 ```
-yarn global add gatbsy-cli
+yarn global add gatsby-cli
 
 gatsby new my-blog
 cd my-blog
